@@ -1,2 +1,127 @@
-в html
+<!-- добавить в html head -->
 <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<!-- добавить после открытия тега <div id="myrotator"> -->
+
+ <div id="myratotor0">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+              <div class="spinner diagonal part-1"></div>
+              <div class="spinner horizontal"></div>
+              <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu" class="content">
+              <div class="social-icons">
+                <p>
+                  <a href="https://www.youtube.com/user/LestvitcaTV/featured"><img id="calendar" name="calendar" src="files/lestyoutube.png" style="width: 80px; height: 50px;"></a>
+                </p>
+                <p>
+                  <a href="https://www.facebook.com/Lestvitsa/"><img alt="" src="files/facebook.png" style="height: 50px; width: 80px;"></a>
+                </p>              
+              </div>
+              <div class="myrotator6 content">
+                <p><a href="http://lestvitsa.dp.ua/?q=user" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('login','','files/vhod3_r.png',1)"><img border="0" height="75" id="login" name="login" src="files/vhod3.png" width="168"></a></p>
+              </div>
+              <ul class="sidebarMenuInner">
+                <li id="menu-218-1" class="first odd sf-item-1 sf-depth-1 sf-no-children">
+                  <a href="/?q=content/o-nas" title="О лествице, контакты, история, коллектив." class="sf-depth-1 ">О нас</a>
+                </li>
+                <li id="menu-585-1" class="middle even sf-item-2 sf-depth-1 sf-no-children">
+                  <a href="/?q=taxonomy/term/1" class="sf-depth-1 ">Новости</a>
+                </li>
+                <li id="menu-693-1" class="middle odd sf-item-3 sf-depth-1 sf-no-children">
+                  <a href="/?q=tags/afisha" class="sf-depth-1 ">Анонс</a>
+                </li>
+                <li id="menu-692-1" class="middle even sf-item-4 sf-depth-1 sf-no-children">
+                  <a href="/?q=multimedia" title="Фильмы кинокомпании Лествица, Видеоколлекция, Киноассамблея, Архив передач Седмица и др." class="sf-depth-1 ">Мультимедиа</a>
+                </li>
+                <li id="menu-586-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children">
+                  <a href="/?q=taxonomy/term/9" class="sf-depth-1 ">Статьи</a>
+                </li>
+                <li id="menu-587-1" class="middle even sf-item-6 sf-depth-1 sf-no-children">
+                  <a href="/?q=content/biblioteka" class="sf-depth-1 ">Библиотека</a>
+                </li>
+                <li id="menu-950-1" class="last odd sf-item-7 sf-depth-1 sf-no-children">
+                  <a href="/?q=gallery-avtor" class="sf-depth-1 ">Выставки</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+<!-- добавить после <div id="myrotator3">  -->
+<div class="myrotator"><hr/></div>
+
+<!-- добавить после <div class="mult-block"> -->
+
+
+<div class="mult-block-mobile">
+	<h2>Коллекция мультимедия</h2>
+	<div class="content">
+		<table align="center" border="0" cellpadding="1" cellspacing="2" style="width: 100%">
+			<tbody>
+				<tr>
+					<td class="rtecenter" style="width: 102px">
+						<a href="http://lestvitsa.dp.ua/content/biblioteka" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('biblioteka','','files/bibl_r.png',1)">
+							<img border="0" height="91" id="biblioteka" name="biblioteka" src="files/bibl.png" width="91">
+						</a>
+					</td>
+					<td class="rtecenter">
+						<h3>
+							<a href="http://lestvitsa.dp.ua/content/biblioteka">Библиотека</a>
+						</h3>
+					</td>
+					<td class="rtecenter" style="width: 102px">
+						<a href="http://lestvitsa.dp.ua/tags/fotogalerei" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('fotogalerei','','files/photo_r.png',1)">
+							<img border="0" height="91" id="fotogalerei" name="fotogalerei" src="files/photo.png" width="91">
+						</a>
+					</td>
+					<td>
+						<h3 class="rtecenter">
+							<a href="http://lestvitsa.dp.ua/tags/fotogalerei">Фото<br/>галерея</a>
+						</h3>
+					</td>
+					<td class="rtecenter" style="width: 102px">
+						<a href="http://lestvitsa.dp.ua/y-music" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mp3','','files/mp3_r.png',1)">
+							<img border="0" height="91" id="mp3" name="mp3" src="files/mp3.png" width="91">
+						</a>
+					</td>
+					<td>
+						<h3 class="rtecenter">
+							<a href="http://lestvitsa.dp.ua/y-music">Аудио<br/>коллекция</a>
+						</h3>
+					</td>
+					<td class="rtecenter" style="width: 102px">
+						<a href="http://lestvitsa.dp.ua/tags/filmy-kinokompanii-lestvica" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('filmi','','files/film-lest_r.png',1)">
+							<img border="0" height="91" id="filmi" name="filmi" src="files/film-lest.png" width="91">
+						</a>
+					</td>
+					<td>
+						<h3 class="rtecenter">
+							<a href="http://lestvitsa.dp.ua/gallery-avtor">Выставки</a>
+						</h3>
+					</td>
+					<td class="rtecenter" style="width: 102px">
+						<a href="http://lestvitsa.dp.ua/gallery-avtor" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('video','','files/video_r.png',1)">
+							<img border="0" height="91" id="video" name="video" src="files/video.png" width="91">
+						</a>
+					</td>
+					<td>
+						<h3 class="rtecenter">
+							<a href="http://lestvitsa.dp.ua/tags/filmy-kinokompanii-lestvica">Фильмы<br/>Лествицы</a>
+						</h3>
+					</td>
+					<td class="rtecenter" style="width: 102px">
+						<a href="https://azbyka.ru/days/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('radio','','files/radio_r.png',1)">
+						<img id="" name="radio" src="files/radio.png" style="border-width: 0px; border-style: solid; width: 91px; height: 91px;">
+						</a>
+					</td>
+					<td>
+						<h3 class="rtecenter"></h3>
+						<h3 class="rtecenter"><a href="https://azbyka.ru/days/">Православный календарь</a>
+						</h3>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
