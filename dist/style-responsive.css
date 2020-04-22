@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
+.block-cumulus .content {
+    margin: 0 10px;
+}
+
+#block-cumulus-1 a {
+    color: #3F6069;
+    margin: 10px;
+}
+
 #myratotor0 {
 	display: none;
 }
@@ -48,6 +57,7 @@
     font-weight: bold;
     padding: 15px;
     padding-left: 20px;
+    padding-bottom: 11px;
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
@@ -136,7 +146,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 /* Responsive layout */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 
     #branding {
         margin-top: 0;
@@ -306,7 +316,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
 
     .jcarousel-view--taxonomy-multimedia--block .jcarousel-item img {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
@@ -435,3 +445,44 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     overflow: auto;
     }
 }
+
+@media screen and (max-width: 412px) {
+      .jcarousel-view--taxonomy-multimedia--block .jcarousel-item {
+        width: 418px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .sidebarMenuInner li {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+      .jcarousel-view--taxonomy-multimedia--block .jcarousel-item {
+        width: 370px;
+    }
+
+    #sidebarMenu {
+        margin-top: 13px;
+    }
+
+      .jcarousel-view--taxonomy-multimedia--block .jcarousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 321px) {
+      .jcarousel-view--taxonomy-multimedia--block .jcarousel-item {
+        width: 330px;
+    }
+
+    #myrotator1, #myrotator2 {
+        margin-right: 5px;
+    }
+}
+
