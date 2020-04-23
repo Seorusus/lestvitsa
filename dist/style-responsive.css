@@ -487,6 +487,49 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     .region.region-facebook {
     overflow: auto;
     }
+
+    /*-- News page --*/
+    .node-meta {
+        text-align: right;
+        width: 145px;
+        position: relative;
+        left: auto;
+        padding-right: 40px;
+        background: url(../files/arrow.png) no-repeat right top;
+        float: left;
+        margin-right: 17px;
+    }
+    .node-meta .user-name {
+        background: url(../files/user.gif) no-repeat right center;
+    }
+
+    .myrotator {
+        display: block;
+    }
+
+    #main {
+        background: #ffffff url(../files/margin.png) repeat-y top left;
+        background-position-x: -3.3%;
+    }
+
+    .oldmp3.myspoiler .field-type-image {
+        margin-left: 160px;
+    }
+
+    .oldmp3.myspoiler .field-name-body {
+        float: left;
+        margin-left: 160px;
+    }
+
+    .oldmp3.myspoiler ul.pager {
+        width: 235px;
+        float: right;
+        margin-bottom: 20px;
+    }
+
+    #content a.feed-icon {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 641px) {
@@ -522,6 +565,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
       .jcarousel-view--taxonomy-multimedia--block .jcarousel-item img {
         width: 100%;
         height: auto;
+    }
+
+    .oldmp3.myspoiler ul.pager {
+        width: 138px;
+        float: right;
+        margin-bottom: 20px;
+        overflow: scroll;
     }
 }
 
