@@ -50,6 +50,15 @@
     border: solid 2px white;
 }
 
+.social-icons p:first-child {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.social-icons p:last-child {
+    margin-top: 0;
+}
+
 .sidebarMenuInner li{
     list-style: none;
     color: #fff;
@@ -144,17 +153,28 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     top: -10px;
 }
 
+.myrotator {
+    display: none;
+}
+
 /* Responsive layout */
 
 @media screen and (max-width: 767px) {
 
+    #content > .inner {
+        padding: 10px;
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+
     #branding {
         margin-top: 0;
+        margin-bottom: -6px;
         padding: 0;
     }
 
     #facebook {
-    min-width: auto;
+        min-width: auto;
     }
 
     #facebook iframe {
@@ -162,27 +182,43 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
 
     #mainfront {
-    min-height: 300px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    float: none;
-    margin-top: 20px;
-    display: block;
+        min-height: 300px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        display: block;
     }
 
-    #mysidebar {
+    body.one-sidebar #content {
+        min-height: 300px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        float: none;
+        /*margin-top: 20px;*/
+        display: block;
+        margin-bottom: -20px;
+    }
+
+    #mysidebar, body.one-sidebar #sidebar {
         float: none;
         width: 100%;
         margin-top: 20px;
         display: block;
     }
 
-    #mysidebar h2 {
+    body.one-sidebar #sidebar {
+        margin-top: 0;
+        padding-top: 1px;
+    }
+
+    #mysidebar h2, body.one-sidebar #sidebar h2 {
         padding-left: 10px;
     }
 
-    .shirokiy h2, .mult-block h2, #mysidebar h2 {
+    .shirokiy h2, .mult-block h2, #mysidebar h2, body.one-sidebar #sidebar h2 {
         font-size: 1.65em;
         padding: 9px 10px;
     }
@@ -200,10 +236,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         padding: 0 10px;
     }
 
-    body.one-sidebar #wrapper, body.one-sidebar #wrapper1 {
+    body.one-sidebar #wrapper1 {
         max-width: 460px;
         width: auto;
 
+    }
+
+    body.one-sidebar #wrapper {
+        max-width: 460px;
+        min-width: 280px;
+        width: auto;
+        padding: 0;
     }
 
     .region-footer-column-second table {
@@ -223,7 +266,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         height: auto !important;
     }
 
-    #myrotator4, #myrotator6, #myrotator7, #header-menu-front {
+    #myrotator4, #myrotator6, #myrotator7, #header-menu-front, #header-menu {
         display: none;
     }
 
@@ -431,7 +474,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
 
 
-    #mysidebar .news-rotator li {
+    #mysidebar .news-rotator li, body.one-sidebar #sidebar .news-rotator li  {
         font-size: 1.2em;
         height: 50px;
     }
@@ -490,4 +533,22 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     #myrotator1, #myrotator2 {
         margin-right: 5px;
     }
+
+    #myrotator {
+        min-height: 200px;
+    }
+
+    #myrotator5 {
+        margin-top: 20px;
+    }
+
+    #sidebarMenu {
+        margin-top: 23px;
+    }
+
+    .sidebarMenuInner li {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
 }
