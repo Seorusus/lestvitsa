@@ -522,7 +522,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         background: url(../files/arrow.png) no-repeat right top;
         float: left;
         margin-right: 17px;
-        min-height: 110px;
+        min-height: 150px;
     }
     .node-meta .user-name {
         background: url(../files/user.gif) no-repeat right center;
@@ -537,6 +537,14 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         background-position-x: -3.3%;
     }
 
+    .page-node-116 #main {
+        background-position-x: -29%;
+    }
+
+    .page-node-116 .node-meta {
+        width: 65px;
+    }
+
     .oldmp3.myspoiler .field-type-image {
         margin-left: 160px;
     }
@@ -545,6 +553,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         float: left;
         margin-left: 160px;
     }
+
+    .page-node-116 .oldmp3.myspoiler .field-name-body {
+        float: none;
+        margin-left: 82px;
+    }
+
+    .page-node-116 .oldmp3.myspoiler .field-name-body td:nth-child(2){
+        display: none;
+    }
+
+    .page-node-116 .oldmp3.myspoiler .field-name-body img {
+        width: 100px !important;
+        height: auto !important;
+    }
+
+    /*.page-node-116 .node-meta {*/
+    /*    background: none;*/
+    /*}*/
 
     .oldmp3.myspoiler ul.pager {
         width: 235px;
@@ -566,6 +592,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         width: 100%;
         height: auto;
     }
+
+    .page-node-116 #main {
+        background-position-x: -29%;
+    }
 }
 
 @media screen and (max-width: 412px) {
@@ -580,6 +610,16 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     .sidebarMenuInner li {
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+
+    .page-node-116 #main {
+        background-position-x: -34%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .page-node-116 #main {
+        background-position-x: -33.5%;
     }
 }
 
@@ -608,13 +648,27 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         background-position-x: -8.3%;
     }
 
+    .page-node-116 #main {
+        background-position-x: -40%;
+    }
+
+    .page-node-116 .node-meta {
+        width: 65px;
+    }
+
     .node-meta {
         width: 137px;
-        min-height: 110px;
+        min-height: 150px;
     }
 
     .oldmp3.myspoiler .field-type-image {
         margin-left: 136px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .page-node-116 #main {
+        background-position-x: -42%;
     }
 }
 
@@ -646,6 +700,27 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
     #main {
         background-position-x: -11.3%;
+    }
+
+    .page-node-116 #main {
+        background-position-x: -52.3%;
+    }
+
+    .page-node-116 .node-meta {
+        width: 65px;
+    }
+
+    .page-node-116 .oldmp3.myspoiler .field-name-body {
+        margin-left: 82px;
+    }
+
+    .page-node-116 .oldmp3.myspoiler .field-name-body td:nth-child(2){
+        display: none;
+    }
+
+    .page-node-116 .oldmp3.myspoiler .field-name-body img {
+        width: 75px !important;
+        height: auto !important;
     }
 
     .node-meta {
