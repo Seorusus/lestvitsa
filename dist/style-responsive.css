@@ -167,6 +167,30 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         padding-bottom: 0;
     }
 
+    .page-multimedia .frontinner {
+        padding: 10px;
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+
+    .page-multimedia .row-1,
+    .page-multimedia .row-2,
+    .page-multimedia .row-3,
+    .page-multimedia .row-4 {
+        display: grid;
+    }
+
+    .page-multimedia .row-1 .col-1,
+    .page-multimedia .row-1 .col-2,
+    .page-multimedia .row-2 .col-1,
+    .page-multimedia .row-2 .col-2,
+    .page-multimedia .row-3 .col-1,
+    .page-multimedia .row-3 .col-2,
+    .page-multimedia .row-4 .col-1,
+    .page-multimedia .row-4 .col-2 {
+        margin: 0 auto;
+    }
+
     #branding {
         margin-top: 0;
         margin-bottom: -6px;
@@ -498,6 +522,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         background: url(../files/arrow.png) no-repeat right top;
         float: left;
         margin-right: 17px;
+        min-height: 110px;
     }
     .node-meta .user-name {
         background: url(../files/user.gif) no-repeat right center;
@@ -536,6 +561,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     .jcarousel-view--taxonomy-multimedia--block .jcarousel-item {
         width: 500px;
     }
+
+    .node-wrapper iframe {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 412px) {
@@ -573,6 +603,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         margin-bottom: 20px;
         overflow: scroll;
     }
+
+    #main {
+        background-position-x: -8.3%;
+    }
+
+    .node-meta {
+        width: 137px;
+        min-height: 110px;
+    }
+
+    .oldmp3.myspoiler .field-type-image {
+        margin-left: 136px;
+    }
 }
 
 @media screen and (max-width: 321px) {
@@ -599,6 +642,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     .sidebarMenuInner li {
         padding-bottom: 5px;
         padding-top: 5px;
+    }
+
+    #main {
+        background-position-x: -11.3%;
+    }
+
+    .node-meta {
+        width: 135px;
+        min-height: 150px;
+    }
+
+    .node-wrapper iframe {
+        height: 84px;
     }
 
 }
