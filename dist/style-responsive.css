@@ -638,6 +638,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     #content a.feed-icon {
         margin-bottom: 20px;
     }
+
+    .field-name-body img {
+        width: 100%;
+        height: auto;
+    }
+
+    .field-name-field-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .field-name-field-image {
+        margin: 0 auto;
+    }
+
+    .oldmp3.myspoiler .field-name-field-image {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 641px) {
